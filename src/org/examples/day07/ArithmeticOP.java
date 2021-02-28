@@ -1,17 +1,11 @@
-package org.examples.day03;
-import java.util.Scanner;
+package org.examples.day07;
 public class ArithmeticOP {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Scanner input = new Scanner(System.in);
-	     
-        System.out.println("Enter an byte value: ");
-        // reads an int value
-        byte a = input.nextByte();
-        byte b = input.nextByte();
-
+		byte a=5;
+		byte b=2;
 		
 		System.out.println("a+b= "+ (a+b));
 		System.out.println("a-b= "+ (a-b));
